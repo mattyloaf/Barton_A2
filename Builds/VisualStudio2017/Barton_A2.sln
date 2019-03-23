@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2017
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Barton_A2 - VST3", "Barton_A2_VST3.vcxproj", "{031FCF73-4D0F-A9EB-1333-4F4895B811B0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{98A1AF86-8FC1-1C22-E235-B3994994A51F} = {98A1AF86-8FC1-1C22-E235-B3994994A51F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Barton_A2 - Shared Code", "Barton_A2_SharedCode.vcxproj", "{98A1AF86-8FC1-1C22-E235-B3994994A51F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{031FCF73-4D0F-A9EB-1333-4F4895B811B0}.Debug|x64.ActiveCfg = Debug|x64
+		{031FCF73-4D0F-A9EB-1333-4F4895B811B0}.Debug|x64.Build.0 = Debug|x64
+		{031FCF73-4D0F-A9EB-1333-4F4895B811B0}.Release|x64.ActiveCfg = Release|x64
+		{031FCF73-4D0F-A9EB-1333-4F4895B811B0}.Release|x64.Build.0 = Release|x64
+		{98A1AF86-8FC1-1C22-E235-B3994994A51F}.Debug|x64.ActiveCfg = Debug|x64
+		{98A1AF86-8FC1-1C22-E235-B3994994A51F}.Debug|x64.Build.0 = Debug|x64
+		{98A1AF86-8FC1-1C22-E235-B3994994A51F}.Release|x64.ActiveCfg = Release|x64
+		{98A1AF86-8FC1-1C22-E235-B3994994A51F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
